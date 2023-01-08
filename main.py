@@ -6,7 +6,7 @@ TG_TOKEN = sys.argv[1]
 BOT = ptbot.Bot(TG_TOKEN)
 
 
-def timer_end(chat_id, question):
+def timer_end(chat_id):
     message = 'Время вышло!'
     BOT.send_message(chat_id, message)
 
