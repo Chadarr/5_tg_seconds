@@ -33,7 +33,6 @@ def render_progressbar(total, iteration, prefix='', suffix='', length=30, fill='
 
 
 def main():
-    print('Бот запущен!')
     BOT.reply_on_message(wait)
     BOT.run_bot()
 
